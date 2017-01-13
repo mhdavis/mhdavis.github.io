@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Portfolio</title>
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Knewave|Roboto" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <div id="top-portion" class="container">
+      <h1 id="custom-title-name" class="center-align">Michael Davis</h1>
+      <img id="custom-profile-image" class="center-block circle responsive-img" src="css/img/michael_profile.jpg">
+      <h1 id="custom-subtitle" class="center-align">Aspiring Developer</h1>
+    </div>
+  </header>
+
+  <nav id="navigation">
+    <a href="#" data-activates="mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+    <ul class='main-nav center hide-on-med-and-down'>
+      <li><a href="#top-portion">Home</a></li>
+      <li><a href="#about-section">About</a></li>
+      <li><a href="#portfolio-section">Portfolio</a></li>
+      <li><a href="#contact-section">Contact</a></li>
+    </ul>
+    <ul class="side-nav" id="mobile">
+      <li><a href="#top-portion">Home</a></li>
+      <li><a href="#about-section">About</a></li>
+      <li><a href="#portfolio-section">Portfolio</a></li>
+      <li><a href="#contact-section">Contact</a></li>
+    </ul>  
+  </nav>
+
+  <div id="about-section" class="container">
+    <div class="section">
+      <div class="row">
+        <div class="col s12">
+          <h5 class="center custom-section-title">About</h5> 
+        </div>
+
+        <div class ="col s12 m4">
+          <div class ="icon-block">
+            <h2 class="center"><i class="large custom-icons material-icons">location_on</i></h2>
+            <h5 class="about-title center">Background</h5>
+            <p class="light">I've spent most of my life abroad. I'm half peruvian on my mother's side and have lived in <i>Peru, Egypt, Cyprus</i> and <i>Switzerland</i> for extended periods of my life (3-5 years in most places.) I've also visited a number of countries (<i>Spain, Israel, Portugal, Germany,</i> and <i>England</i> to name a few.)</p>
+          </div>
+        </div>
+
+        <div class ="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center"><i class="large custom-icons material-icons">person_pin</i></h2>
+            <h5 class="about-title center">Education</h5>
+            <p class="light">I love to learn about science. I recently recieved my B.A. in Chemistry from <i>New College of Florida.</i> I also enjoy art in all its forms (drawing, music, literature, and movies) and have a particular love of art that merges elements of different cultures and time periods. Programming does a lot to bridge the gap between art and science for me.</p>
+          </div>
+        </div>
+
+        <div class ="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center"><i class="large custom-icons material-icons">code</i></h2>
+            <h5 class="about-title center">Interests</h5>
+            <p class="light">I enjoy programming a lot because it marries creativity with scientific reasoning. I like learning about fullstack and how all the elements of a program work in tandem. I'm self-taught and acquire my knowledge from a wide array of resources (people, websites, books, etc.)</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- PORTFOLIO
+  Carosel 
+  -->
+  <div id="portfolio-section" class="container">
+    <div class="section">
+      <div class="divider"></div>
+
+        <div class="col s12">
+          <h5 class="center custom-section-title">Portfolio</h5> 
+          <p class="center light">Here is showcase of some of the different things I've built</p>
+        </div>
+
+      <div class="carousel carousel-slider center" data-indicators="true">
+        <div id="slide-one" class="carousel-item portfolio-piece-text" href="#one!">
+          <h2 class="portfolio-title">Tribute Page</h2>
+          <a class="btn waves-effect custom-portfolio-btn tooltipped" data-position='bottom' data-delay="50" data-tooltip="Used HTML, CSS, Bootstrap" href="http://codepen.io/mhdavis/pen/zKBPRy" target="_blank">Visit</a>
+        </div>
+        <div id="slide-two" class="carousel-item portfolio-piece-text" href="#two!">
+          <h2 class="portfolio-title">Twitch Streamer App</h2>
+          <a class="btn waves-effect custom-portfolio-btn tooltipped" data-position='bottom' data-delay="50" data-tooltip="Used HTML, CSS, Javascript, jQuery, Materialize" href="http://codepen.io/mhdavis/pen/mOXeoq" target="_blank">Visit</a>
+        </div>
+        <div id="slide-three" class="carousel-item portfolio-piece-text" href="#three!">
+          <h2 class="portfolio-title">Local Weather App</h2>
+          <a class="btn waves-effect custom-portfolio-btn tooltipped" data-position='bottom' data-delay="50" data-tooltip="Used HTML, CSS, Javascript, jQuery Bootstrap" href="http://codepen.io/mhdavis/pen/BLbyQp" target="_blank">Visit</a>
+        </div>
+        <div id="slide-four" class="carousel-item portfolio-piece-text" href="#four!">
+          <h2 class="portfolio-title">Random Quote Generator</h2>
+          <a class="btn waves-effect custom-portfolio-btn tooltipped" data-position='bottom' data-delay="50" data-tooltip="Used HTML, CSS, Javascript, jQuery Bootstrap" href="http://codepen.io/mhdavis/pen/xEyywp" target="_blank">Visit</a>
+        </div>
+      </div>
+
+      <div class="col s12">
+        <p class="center light">Check out my codepen to see more!</p>
+      </div>
+    </div>
+  </div>
+
+<!-- CONTACT -->
+  <!--shoot me an email at this shit-->
+
+  <div id="contact-section" class="container">
+    <div class="section">
+      <div class="divider"></div>
+        
+        <div class="row">
+          <h5 class="center custom-section-title">Contact</h5>
+          <!--<p class="center light">Like my work? Email me!</p>-->
+          <p class="center light">(Still working on the backend for this; currently <b>not</b> functional)</p>
+          <p class="center light">Use social media instead!</p>
+
+          <form class="col s12" method="post" enctype="text/plain">
+
+            <div class="input-field col s6">
+              <i class="material-icons prefix">account_circle</i>
+              <input id="icon_prefix" type="text">
+              <label for="icon_prefix">Name</label>
+            </div>
+
+            <div class="input-field col s6">
+              <i class="material-icons prefix">email</i>
+              <input id="icon_email" type="email">
+              <label for="icon_email">Email</label>
+            </div>
+            
+            <div class="input-field col s12">
+              <i class="material-icons prefix">mode_edit</i>
+              <textarea id="textarea1" class="materialize-textarea"></textarea>
+              <label for="textarea1">Message</label>
+            </div>
+
+            <div class="center-align">
+            <input id="send-button" class="btn custom-contact-btn waves-effect" type="submit" value="Send">
+            <input id="clear-button" class="btn custom-contact-btn waves-effect" type="reset" value="Clear">
+            </div>
+
+          </form>
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+<!-- FOOTER -->
+  <!--Social media stuff-->
+  <footer class="page-footer">
+    <div class="center-align">
+      <div class="row">
+        <p id="copyright">Copyright &copy; 2017 Michael Davis.</p>
+        <div class="footer-logos">
+            <a href="https://github.com/mhdavis" target="_blank"><i id="social-gh" class="fa fa-github fa-3x social-btn"></i></a>
+            <a href="https://twitter.com/M_HDavis" target="_blank"><i id="social-tw" class="fa fa-twitter fa-3x social-btn"></i></a>
+            <a href="https://www.linkedin.com/in/michael-davis-1b31b7124?trk=nav_responsive_tab_profile_pic" target="_blank"><i id="social-ln" class="fa fa-linkedin fa-3x social-btn"></i></a>
+            <a href="http://codepen.io/mhdavis/" target="_blank"><i id="social-cp" class="fa fa-codepen fa-3x social-btn"></i></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+</body>
+</html>

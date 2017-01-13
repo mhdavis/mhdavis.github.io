@@ -1,0 +1,252 @@
+body {
+	background-color: #212121;
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+}
+
+main {
+	flex: 1 0 auto;
+}
+
+/*HEADER / TOP SECTION
+-----------------------------------------------------------------*/
+#top-portion {
+	color: white;
+	background-color: #212121;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+}
+
+#custom-title-name {
+	font-family: 'Knewave' , cursive;
+	font-size: 3em;
+}
+
+#custom-subtitle {
+	font-family: 'Knewave' , cursive;
+	font-size: 2em;
+}
+
+img.responsive-img {
+	max-width: 40%;
+}
+
+/* NAVBAR
+----------------------------------------------------------------*/
+nav {
+	background-color: #212121;
+	box-shadow: 0 0 0 0;
+	font-family: 'Knewave' , cursive;
+}
+
+nav ul a {
+	font-size: 30px;
+	padding: 0 50px;
+}
+
+#navigation ul a:hover {
+	background-color: rgba(0, 0, 0, 0);
+	color: #ff9100;
+}
+
+ #navigation {
+ 	width: 100%;
+ 	text-align: center;
+}
+
+#navigation li {
+	float: none;
+	display: inline-block;
+}
+
+.fixed {
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 2;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+/*SIDE NAV
+----------------------------------------------------------------*/
+.side-nav a {
+	font-size: 2em;
+	margin: 0 80px;
+}
+
+
+/*ICONS
+----------------------------------------------------------------*/
+.container {
+	padding: 4em;
+	background-color: white;
+}
+
+.custom-icons {
+	color: #ff9100;
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+
+.icon-block .material-icons {
+	font-size: inherit;
+}
+
+/* APPLICABLE TO ALL SECTIONS
+-----------------------------------------------------------------*/
+.custom-section-title {
+	font-family: 'Knewave' , cursive;
+	font-size: 35px;
+	color: #212121;
+}
+
+.divider {
+	margin-bottom: 30px;
+}
+
+/* ABOUT
+-----------------------------------------------------------------*/
+.about-title {
+	font-family: 'Knewave' , cursive;
+	color: #212121;
+}
+
+/* PORTFOLIO
+-----------------------------------------------------------------*/
+.portfolio-piece-text {
+	font-family: 'Knewave' , cursive;
+	color: #FFFFFF;
+}
+
+.portfolio-title {
+	background-color: #212121;
+	margin-left: 4rem;
+	margin-right: 4rem;
+	padding-top: 0.45rem;
+	padding-bottom: 0.45rem;
+	border-radius: 25px;
+}
+
+.indicators {
+	background-color: #212121;
+}
+
+#slide-one {
+	background-image: url(img/portfolio_imgs/tribute_page.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-position: center;
+}
+
+#slide-two {
+	background-image: url(img/portfolio_imgs/twitch_streamers_app.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-position: center;
+}
+
+#slide-three {
+	background-image: url(img/portfolio_imgs/weather_app.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-position: center;
+}
+
+#slide-four {
+	background-image: url(img/portfolio_imgs/random_quote_generator.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-position: center;
+}
+
+/* CONTACT
+-----------------------------------------------------------------*/
+
+/* label color */
+.input-field label {
+ color: #000;
+}
+
+/*label focus color*/
+input[type=text]:focus:not([readyonly]) + label,
+input[type=email]:focus:not([readyonly]) + label,
+textarea[class=materialize-textarea]:focus:not([readonly]) + label {
+ color: #ff9100;
+}
+
+/* label underline focus color */
+.input-field input[type=text]:focus,
+.input-field input[type=email]:focus,
+.input-field textarea.materialize-textarea:focus {
+ border-bottom: 1px solid #ff9100;
+ box-shadow: 0 1px 0 0 #ff9100;
+}
+
+/* icon prefix focus color */
+.input-field .prefix.active {
+ color: #ff9100;
+}
+
+/*BUTTONS
+------------------------------------------------------------------*/
+/*portfolio buttons*/
+.custom-portfolio-btn {
+	font-family: 'Knewave' , cursive;
+	color: #FFFFFF;
+	background-color: #212121;
+}
+
+.custom-portfolio-btn:hover {
+	background-color: #ff9100;
+}
+
+.custom-portfolio-btn:focus {
+	background-color: #212121;
+}
+
+/*contact buttons*/
+.custom-contact-btn {
+	font-family: 'Knewave' , cursive;
+	color: #FFFFFF;
+	background-color: #212121;
+	margin: 0 1em;
+
+}
+
+.custom-contact-btn:hover {
+	background-color: #ff9100;
+}
+
+.custom-portfolio-btn:focus {
+	background-color: #212121;
+}
+
+/*FOOTER
+-------------------------------------------------------------------*/
+footer.page-footer { 
+	background-color: #212121;
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+
+footer #copyright {
+	font-family: 'Knewave' , cursive;
+	color: #FFFFFF;
+	font-size: 1.3em;
+
+}
+
+
+/*SOCIAL MEDIAL BUTTONS
+-------------------------------------------------------------------*/
+.social-btn {
+	color: #FFFFFF;
+	padding: 0 0.5em;
+}
+
+.social-btn:hover {
+	color: #ff9100;
+}
