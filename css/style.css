@@ -37,12 +37,13 @@ img.responsive-img {
 nav {
 	background-color: #212121;
 	box-shadow: 0 0 0 0;
-	font-family: 'Knewave' , cursive;
 }
 
-nav ul a {
+.nav-link {
+	font-family: 'Knewave' , cursive;
 	font-size: 30px;
 	padding: 0 50px;
+	transition: 0.3s;
 }
 
 #navigation ul a:hover {
@@ -109,9 +110,17 @@ nav ul a {
 
 /* ABOUT
 -----------------------------------------------------------------*/
+#about-section {
+	border-radius: 40px 40px 0px 0px;
+}
+
 .about-title {
 	font-family: 'Knewave' , cursive;
 	color: #212121;
+}
+
+.about-paragraph {
+	font-size: 1.3em;
 }
 
 /* PORTFOLIO
@@ -162,8 +171,6 @@ nav ul a {
 	background-position: center;
 }
 
-/*BUTTONS
-------------------------------------------------------------------*/
 /*portfolio buttons*/
 .custom-portfolio-btn {
 	font-family: 'Knewave' , cursive;
@@ -172,23 +179,6 @@ nav ul a {
 }
 
 .custom-portfolio-btn:hover {
-	background-color: #ff9100;
-}
-
-.custom-portfolio-btn:focus {
-	background-color: #212121;
-}
-
-/*contact buttons*/
-.custom-contact-btn {
-	font-family: 'Knewave' , cursive;
-	color: #FFFFFF;
-	background-color: #212121;
-	margin: 0 1em;
-
-}
-
-.custom-contact-btn:hover {
 	background-color: #ff9100;
 }
 
